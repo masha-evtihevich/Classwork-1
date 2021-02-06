@@ -2,13 +2,14 @@
     position: relative;
     height: 1000px;
     width: 1000px;
-
     margin: 0 auto;
 }
+
 /* circle */
 .circle {
     width: 25%; 
     height: 25%;
+
     background: red;
     border-radius: 50%;
 }
@@ -19,20 +20,68 @@
     top: 12% ;
 }
 .circle-left-top:hover {
-    background-color: yellowgreen;
     z-index: 300;
-}
 
+    background-color: yellowgreen;
+}
 .circle-right-top {
     position: absolute;
     right: 12%;
     top: 12% ;
 }
 .circle-right-top:hover {
-    background-color: green;
     z-index: 300;
+
+    background-color: green;
+}
+.circle-left-bottom {
+    position: absolute;
+    bottom: 12%;
+    left: 12%;
+}
+.circle-left-bottom:hover {
+    z-index: 300;
+
+    background-color: violet;
+}
+.circle-right-bottom {
+    position: absolute;
+    bottom: 12%;
+    right: 12%;
+}
+.circle-right-bottom:hover {
+    z-index: 300;
+
+    background-color: #5c0f4b;
+}
+/* square */
+.square-blue {
+    position: absolute;
+    top: 25%;
+    right: 25%; 
+
+    width: 50%; 
+    height: 50%;
+   
+    background: blue;
+}
+.square-blue:hover {
+    z-index: 200;
+
+    background-color: slategray;
 }
 
+.square-yellow {
+    position: absolute;
+    top: 37%;
+    right: 37%;
+
+    width: 25%; 
+    height: 25%;
+    
+    background: yellow;
+    border-radius: 10%;
+}
 .circle-left-bottom {
     position: absolute;
     bottom: 12%;
