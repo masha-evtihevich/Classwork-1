@@ -1,0 +1,78 @@
+.wrap {
+    position: relative;
+    height: 1000px;
+    width: 1000px;
+
+    margin: 0 auto;
+}
+/* circle */
+.circle {
+    width: 25%; 
+    height: 25%;
+    background: red;
+    border-radius: 50%;
+}
+
+.circle-left-top {
+    position: absolute;
+    left: 12%;
+    top: 12% ;
+}
+.circle-left-top:hover {
+    background-color: yellowgreen;
+    z-index: 300;
+}
+
+.circle-right-top {
+    position: absolute;
+    right: 12%;
+    top: 12% ;
+}
+.circle-right-top:hover {
+    background-color: green;
+    z-index: 300;
+}
+
+.circle-left-bottom {
+    position: absolute;
+    bottom: 12%;
+    left: 12%;
+}
+.circle-left-bottom:hover {
+    background-color: violet;
+    z-index: 300;
+}
+.circle-right-bottom {
+    position: absolute;
+    bottom: 12%;
+    right: 12%;
+}
+.circle-right-bottom:hover {
+    background-color: #5c0f4b;
+    z-index: 300;
+}
+.square-blue {
+    width: 50%; 
+    height: 50%;
+    background: blue;
+
+    position: absolute;
+    top: 25%;
+    right: 25%;    
+
+}
+/* square */
+.square-blue:hover {
+    background-color: slategray;
+    z-index: 200;
+}
+.square-yellow {
+    width: 25%; 
+    height: 25%;
+    background: yellow;
+    border-radius: 10%;
+
+    position: absolute;
+    top: 37%;
+    right: 37%; 
+}
